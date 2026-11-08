@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#121b24">
+  <meta name="description" content="Онлайн-резюме Дмитрия Северина: студент направления информационных систем, навыки веб-разработки, PHP, Python, SQL, MySQL, MariaDB и Linux.">
+  <title>Дмитрий Северин — программист | Онлайн-резюме</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="page-noise" aria-hidden="true"></div>
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="На главную">
+        <span class="brand__mark">DS<span>.</span></span>
+        <span class="brand__caption">Онлайн-резюме</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="navigation">
+        <span></span><span></span>
+      </button>
+      <nav class="navigation" id="navigation" aria-label="Основная навигация">
+        <a href="#about">Обо мне</a>
+        <a href="#skills">Навыки</a>
+        <a href="#education">Образование</a>
+        <a href="#achievements">Достижения</a>
+        <a class="navigation__contact" href="#contacts">Связаться <span>↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-dark">
+      <div class="hero__orb hero__orb--one" aria-hidden="true"></div>
+      <div class="hero__orb hero__orb--two" aria-hidden="true"></div>
+      <div class="container hero__grid">
+        <div class="hero__content" data-reveal>
+          <div class="eyebrow"><span class="status-dot"></span> ИНФОРМАЦИОННЫЕ СИСТЕМЫ · 09.02.07</div>
+          <p class="hero__overline">СТУДЕНТ СПО · ВЕБ-РАЗРАБОТКА</p>
+          <h1>Северин<br><span>Дмитрий</span><br>Сергеевич<span class="hero__period">.</span></h1>
+          <p class="hero__description">Изучаю и применяю технологии веб-разработки: создаю пользовательские интерфейсы, работаю с серверной логикой на PHP и базами данных. Особенно интересуюсь backend-разработкой и устройством веб-приложений.</p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="#contacts">Связаться со мной <span>↗</span></a>
+            <a class="button button--ghost" href="#about">Обо мне <span>↓</span></a>
+          </div>
+          <div class="hero__meta">
+            <span><i class="meta-line"></i> PHP · SQL · WEB</span>
+            <span class="meta-separator">/</span>
+            <span>Английский B2</span>
+          </div>
+        </div>
+
+        <div class="hero__visual" data-reveal data-reveal-delay="140">
+          <div class="portrait-card">
+            <div class="portrait-card__top"><span class="portrait-card__indicator"></span> DEVELOPER PROFILE <span class="portrait-card__number">01 / 01</span></div>
+            <div class="portrait-card__image-wrap">
+              <img class="portrait-card__image" src="images/profile.png" alt="Портрет Дмитрия Северина на белом фоне">
+              <div class="portrait-card__image-glow" aria-hidden="true"></div>
+            </div>
+            <div class="portrait-card__caption"><span class="portrait-card__name">Дмитрий Северин</span><span class="portrait-card__role">Программист · веб-разработка</span></div>
+          </div>
+          <div class="floating-tag floating-tag--top"><span class="tag-symbol">&lt;/&gt;</span> PHP · SQL</div>
+          <div class="floating-tag floating-tag--bottom"><span class="tag-symbol">✳</span> Интерес к backend</div>
+          <div class="hero__visual-index">01 — 05</div>
+        </div>
+      </div>
+      <div class="hero__bottom container">
+        <span>ОНЛАЙН-РЕЗЮМЕ</span>
+        <a href="#about" aria-label="Прокрутить вниз">SCROLL TO EXPLORE <span>↓</span></a>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <div><p class="section-kicker">01 / ОБО МНЕ</p><h2>От интерфейса<br>до <span>серверной части.</span></h2></div>
+          <p class="section-heading__note">Мои учебные и практические направления — пользовательский интерфейс, backend и базы данных.</p>
+        </div>
+        <div class="about-grid">
+          <article class="about-copy" data-reveal>
+            <p class="lead">Я обучаюсь в Тульском экономическом колледже по направлению информационных систем и параллельно развиваюсь в веб-разработке.</p>
+            <ul class="about-points" id="about-points" aria-label="Основные направления подготовки"></ul>
+          </article>
+          <div class="facts-grid" data-reveal data-reveal-delay="100">
+            <div class="fact-card fact-card--accent"><span class="fact-card__number">2</span><span class="fact-card__label">Региональных призовых результата<br>в чемпионате и олимпиаде</span><span class="fact-card__decoration">✳</span></div>
+            <div class="fact-card"><span class="fact-card__number">4,7</span><span class="fact-card__label">Средний балл<br>за 4 года обучения</span></div>
+            <div class="fact-card fact-card--wide"><span class="fact-card__number fact-card__number--small">B2</span><span class="fact-card__label">Английский язык</span><span class="fact-card__detail">Уровень владения</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <div><p class="section-kicker">02 / КОМПЕТЕНЦИИ</p><h2>Инструменты<br><span>и технологии.</span></h2></div>
+          <p class="section-heading__note">Языки, фреймворки, базы данных и инструменты, перечисленные в резюме.</p>
+        </div>
+        <div class="skills-layout">
+          <div class="skills-intro" data-reveal>
+            <span class="skills-icon">{ }</span>
+            <h3>Клиентская часть,<br>backend и окружение.</h3>
+            <p>Изучаю разные стороны веб-разработки — от интерфейсов и баз данных до настройки локальной среды.</p>
+            <span class="skills-intro__index">SKILLS / 2026</span>
+          </div>
+          <div class="skills-groups" id="skills-groups" aria-label="Список навыков"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <div><p class="section-kicker">03 / ОБРАЗОВАНИЕ</p><h2>Учусь и развиваюсь<br><span>в IT-сфере.</span></h2></div>
+          <p class="section-heading__note">Основное обучение в колледже и дополнительный курс по Python.</p>
+        </div>
+        <ol class="timeline" id="education-list" aria-label="Образование и дополнительное обучение"></ol>
+      </div>
+    </section>
+
+    <section class="section achievements-section" id="achievements">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <div><p class="section-kicker">04 / ДОСТИЖЕНИЯ</p><h2>Результат — это<br><span>тоже мотивация.</span></h2></div>
+          <p class="section-heading__note">Результаты профессиональных соревнований и олимпиад, а также практический опыт, указанный в резюме.</p>
+        </div>
+        <ul class="achievement-list" id="achievement-list" aria-label="Достижения и практический опыт"></ul>
+      </div>
+    </section>
+
+    <section class="section personal-section" id="personal">
+      <div class="container personal-grid">
+        <div data-reveal><p class="section-kicker">05 / ДОПОЛНИТЕЛЬНО</p><h2>Как я подхожу<br>к <span>работе.</span></h2></div>
+        <div class="personal-content" data-reveal data-reveal-delay="100">
+          <p class="lead">В работе опираюсь на самостоятельность, ответственность и умение взаимодействовать с командой.</p>
+          <ul class="qualities" id="qualities-list" aria-label="Личные качества"></ul>
+          <p>Интересуюсь серверной разработкой, базами данных и архитектурой веб-приложений. Изучаю новые инструменты веб-разработки; также имею опыт настройки локальной среды.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section section-dark" id="contacts">
+      <div class="contact-glow" aria-hidden="true"></div>
+      <div class="container contact-content" data-reveal>
+        <p class="section-kicker">КОНТАКТЫ</p>
+        <h2>Давайте<br><span>знакомиться.</span></h2>
+        <p class="contact-description">Свяжитесь со мной, чтобы обсудить профессиональные возможности или задачи в области веб-разработки.</p>
+        <div class="contact-actions">
+          <a class="button button--primary" href="mailto:Dmitri2007.severin@yandex.ru">Написать на почту <span>↗</span></a>
+          <a class="button button--outline-light" href="tel:+89539526753">Позвонить <span>↗</span></a>
+        </div>
+        <div class="contact-details">
+          <div class="contact-detail"><span>EMAIL</span><a href="mailto:Dmitri2007.severin@yandex.ru">Dmitri2007.severin@yandex.ru</a><button class="copy-button" type="button" data-copy="Dmitri2007.severin@yandex.ru" aria-label="Скопировать адрес электронной почты">⧉</button></div>
+          <div class="contact-detail"><span>ТЕЛЕФОН</span><a href="tel:+89539526753">+8 (953) 952-67-53</a></div>
+        </div>
+      </div>
+      <footer class="footer container">
+        <a class="brand brand--footer" href="#top"><span class="brand__mark">DS<span>.</span></span><span class="brand__caption">Онлайн-резюме</span></a>
+        <span>© <span id="year">2026</span> · Онлайн-резюме</span>
+        <a class="footer__top" href="#top">НАВЕРХ ↑</a>
+      </footer>
+    </section>
+  </main>
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
